@@ -13,3 +13,13 @@ spring:
         port: 27017
         db: foodiebook
 ---
+
+---
+spring:
+  profiles: docker
+  data:
+      mongo:
+        host: foodie-mongo
+        port: 27017
+        db: foodiebook
+---
